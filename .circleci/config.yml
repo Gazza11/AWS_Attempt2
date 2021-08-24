@@ -1,6 +1,7 @@
 version: 2.1
 orbs:
   aws-s3: circleci/aws-s3@1.0.4
+  python: circleci/python@1.4.0
 jobs:
   test:
     docker:
